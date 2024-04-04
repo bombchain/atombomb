@@ -1,14 +1,14 @@
 version: 1
 validation: sovereign
 accounts:
-  - name: alice
+  - name: aaron1
     coins:
-      - 20000token
+      - 200000000token
       - 200000000stake
-  - name: bob
+  - name: aaron2
     coins:
-      - 10000token
-      - 100000000stake
+      - 200000000token
+      - 200000000stake
 client:
   openapi:
     path: docs/static/openapi.yml
@@ -16,7 +16,7 @@ genesis:
   app_state:
     staking:
       params:
-        bond_denom: "denom"
+        bond_denom: "stake"
 validators:
-  - name: alice
+  - name: aaron1
     bonded: 100000000stake
