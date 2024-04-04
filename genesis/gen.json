@@ -16,15 +16,7 @@
         "sig_verify_cost_ed25519": "590",
         "sig_verify_cost_secp256k1": "1000"
       },
-      "accounts": [
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "abomb1ka7hlkp9lh4gfp9er4um6jz4lnetxprwnkzrf0",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        }
-      ]
+      "accounts": []
     },
     "authz": {
       "authorization": []
@@ -34,23 +26,8 @@
         "send_enabled": [],
         "default_send_enabled": true
       },
-      "balances": [
-        {
-          "address": "abomb1ka7hlkp9lh4gfp9er4um6jz4lnetxprwnkzrf0",
-          "coins": [
-            {
-              "denom": "stake",
-              "amount": "100000000000"
-            }
-          ]
-        }
-      ],
-      "supply": [
-        {
-          "denom": "stake",
-          "amount": "100000000000"
-        }
-      ],
+      "balances": [],
+      "supply": [],
       "denom_metadata": [],
       "send_enabled": []
     },
